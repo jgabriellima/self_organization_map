@@ -7,7 +7,7 @@ How use
 --------------
 
 ```sh
-git clone [git-repo-url]
+git clone https://github.com/jgabriellima/self_organization_map.git
 python test.py
 ```
 
@@ -36,7 +36,7 @@ Below are some references:
 * [Marcel Pinheiro Caraciolo] - first review on the python code (creator)
 * [Python Docs] - Python Documentation
 * [Wiki SOM] - Python Documentation
-* [J. Gabriel Lima] - Some question, talk with me: **jgabriel.ufpa@gmail.com**
+* [J. Gabriel Lima] - Adaptations on the code.  Any question, talk with me: **jgabriel.ufpa@gmail.com**
 
 License
 ----
