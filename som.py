@@ -42,8 +42,8 @@ class Map(object):
             for j in xrange(self.length):
                 self.outputs[i].append(Neuron(i,j,self.length))
                 for k in xrange(self.dimensions):
-                    self.outputs[i][j].weights.append(self.rand.random()) 
-    
+                    self.outputs[i][j].weights.append(self.rand.random())
+
     #Load the dataset
     #@param filePath: The file path
     def loadData(self,filePath):
@@ -111,6 +111,7 @@ class Map(object):
                 if d < minD:
                     minD = d
                     winner = self.outputs[i][j]
+
         return winner
 
     #The euclidian distance
@@ -120,7 +121,7 @@ class Map(object):
         value = 0.0
         for i in xrange(len(inVector)):
             value +=  pow((inVector[i] - outVector[i]),2)
-        
+
         return math.sqrt(value)
     
     #Dump the coordinates
@@ -176,7 +177,7 @@ class Neuron(object):
             delta = self.learningRate(iteration) * self.gauss(winner,iteration) * (pattern[i] - self.weights[i])
             self.weights[i] += delta
             sum += delta
-        
+
         return sum / len(self.weights)
 
     
@@ -185,5 +186,3 @@ class Neuron(object):
 #import psyco
 
 #psyco.full()
-
-#map = Map(3,10,"dataset.txt")
