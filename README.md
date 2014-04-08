@@ -38,7 +38,7 @@ References
 
 Below are some references:
 
-* [Marcel Pinheiro Caraciolo] - first review on the python code (creator)
+* [Marcel Pinheiro Caraciolo] - first review on the python code
 * [Python Docs] - Python Documentation
 * [Wiki SOM] - Python Documentation
 * [J. Gabriel Lima] - Adaptations on the code.  Any question, talk with me: **jgabriel.ufpa@gmail.com**
