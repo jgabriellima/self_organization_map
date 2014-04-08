@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dumpcassandra/.idea/dumpcassandra.iml" filepath="$PROJECT_DIR$/../dumpcassandra/.idea/dumpcassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kmeans/.idea/kmeans.iml" filepath="$PROJECT_DIR$/../kmeans/.idea/kmeans.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/self_organization_map.iml" filepath="$PROJECT_DIR$/.idea/self_organization_map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../socialmining/.idea/socialmining.iml" filepath="$PROJECT_DIR$/../socialmining/.idea/socialmining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../youtube_to_mp3/.idea/youtube_to_mp3.iml" filepath="$PROJECT_DIR$/../youtube_to_mp3/.idea/youtube_to_mp3.iml" />
     </modules>
   </component>
 </project>
