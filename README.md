@@ -23,6 +23,11 @@ SOM on Step-by-Step
 >6. Reduce the radius vicinity monotonically (linearly). 
 >7. Repeat steps from step 2 until the update of the weights are very few.
 
+Dependencies
+----
+
+Python 2.7.+
+
 Version
 ----
 
